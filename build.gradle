@@ -15,9 +15,6 @@ dependencies {
             "org.junit.jupiter:junit-jupiter-api:$junitVersion")
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:$junitVersion"
 }
-tasks.withType(Javacompile) {
-    options.encoding = 'UTF-8'
-}
 test {
     useJUnitPlatform()
 }
