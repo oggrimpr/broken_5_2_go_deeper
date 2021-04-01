@@ -1,0 +1,7 @@
+package docs;
+
+public class Junit5Examples {
+    void someTest() {
+    Sysytem.out.println("");
+    }
+}
